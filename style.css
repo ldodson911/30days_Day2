@@ -1,0 +1,19 @@
+.parallax {
+	/*The image used */
+	background-image: url(http://res.cloudinary.com/dbuxu4esf/image/upload/v1514606005/AdobeStock_136285159_vdkuzv.jpg)
+
+	/*Set a specific height */
+	min-height:  500px;
+
+	/*Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+
+h1 {
+	font-family: Rouge+Script;
+}
