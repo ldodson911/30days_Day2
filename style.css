@@ -1,9 +1,47 @@
+.header {
+position: relative;
+height: 40px;
+width: 100%;
+font-size:14px;
+line-height:14px;
+text-transform:uppercase;
+font-weight:500;
+letter-spacing:3px;
+background-color: rgba(255,255,255,1);
+border-top: 0px solid rgba(212,212,210,1);
+border-bottom: 0px solid rgaba (212,212,210,1);
+}
+
+#nav {
+  text-align: center;
+  padding-top: 5px;
+}
+
+#nav ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 15px;
+  }
+
+#nav li {
+  display: inline;
+   
+}
+
+#nav a {
+  text-decoration: none;
+}
+
+#nav a:hover {
+  color: teal;
+}
+
 .parallax {
 	/*The image used */
-	background-image: url(http://res.cloudinary.com/dbuxu4esf/image/upload/v1514606005/AdobeStock_136285159_vdkuzv.jpg)
+	background-image: url(http://res.cloudinary.com/dbuxu4esf/image/upload/v1514606005/AdobeStock_136285159_vdkuzv.jpg);
 
 	/*Set a specific height */
-	min-height:  500px;
+	min-height:  900px;
 
 	/*Create the parallax scrolling effect */
 	background-attachment: fixed;
@@ -13,7 +51,93 @@
 
 }
 
-
 h1 {
-	font-family: Rouge+Script;
+	font-family: Rouge Script !important;
+  color: white;
+  font-weight: bold !important;
+  font-size: 48px !important;
+}
+
+.title {
+	font-family: Nunito !important;
+	font-size: 72px;
+	color:  white;
+	line-height: 1.5;
+	margin-top:  calc(0px + -3em);
+	margin-bottom:  calc(0px + -3em);
+	white-space:  pre-wrap;
+	text-align: center;
+}
+
+.ev-short-date-location {
+    display: flex;
+    justify-content: center;
+    color: white;
+    }
+
+.ev-short-date-location_date-wrapper {
+  display: flex;
+  font-size: 16px !important;
+  letter-spacing: 1px;
+  justify-content: center;
+  
+}
+
+.ev-short-date-location_date {
+  line-height: 1.5 !important;
+}
+
+.ev-short-date-location_vertical-divider {
+  margin: 0 12px;
+  width: 1px;
+  height: 8em;
+  
+}
+
+.rsvp-btn-wrapper {
+  margin-bottom: 0px;
+  display: block;
+  line-height: 1;
+  text-align: center;
+}
+
+input {
+  font-family: Nunito !important;
+  font-size: 20px !important;
+  margin: 20px;
+ 
+} 
+
+.container {
+  width: 100%;
+  margin: 0;
+  padding:20px;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background-color: rgba(46,46,46,1);
+  font-family: Nunito !important;
+  color: rgba(255,255,255,1);
+  display: flex;
+  
+}  
+.container > div {
+  flex: 1; /*grow*/
+}
+
+.container p {
+  letter-spacing: .25em;
+  font-size: .8em;
+  text-align: center;
+  
+}
+
+#social {
+  text-align: center;
+}
+
+#social li {
+  list-style: none;
+  display: inline;
+  
 }
